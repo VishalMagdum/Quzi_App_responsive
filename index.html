@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuziAPP 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5d69ba2df7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                
+              <a class="navbar-brand" href="#">
+                <i class="fas fa-book" style="color:blue"></i>
+                
+               My Quize 
+              </a>
+            </div>
+          </nav>
+    </section>
+<section>
+    <div class="quizContainer container" id="quiz">
+        <div class="quizHeader">
+            <h2 id="questionHeadling">Question Text</h2>
+            <!-- options -->
+            <ul>
+                <li>
+                    <input type="radio" name="optionList" id="a" class="optionlist">
+                    <label id="option_a" for="a" class="options" >Option a</label>
+                </li>
+                <li>
+                    <input type="radio" name="optionList" id="b" class="optionlist">
+                    <label for="b" class="options" id="option_b">Option b</label>
+                </li>
+                <li>
+                    <input type="radio" name="optionList" id="c" class="optionlist">
+                    <label for="c" class="options" id="option_c">Option c</label>
+                </li>
+                <li>
+                    <input type="radio" name="optionList" id="d" class="optionlist">
+                    <label for="d" class="options" id="option_d">Option d</label>
+                </li>
+            </ul>
+        </div>
+        <div>  
+            <button id="submit" class="btn btn-warning">Submit</button>
+        </div>
+        
+    </div>
+</section>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
